@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navbar{
+    background-color: #000000;
+}
+
+.company-logo{
+    font-family: roboto;
+    letter-spacing: 1px;
+}
+
+.nav-link{
+    letter-spacing: 0.5px;
+    font-family: poppins;
+    font-size: 13px;
+}
+
+.landing-page{
+    height: 650px;
+    background-image: url(images/langingpage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.landing-page-text{
+    height: 650px;
+    width: auto;
+    font-family: poppins;
+}
+
+.about{
+    height: 600px;
+    background-image: url(images/edgar-chaparro.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #090B0B;
+}
+
+.about-classes{
+    height: 600px;
+    background-image: url(images/samuel-girven.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #1C2222;
+}
+
+.about-classes-p{
+    width: auto;
+    height: auto;
+    float: right;
+}
